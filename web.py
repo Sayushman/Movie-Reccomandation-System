@@ -16,10 +16,10 @@ def recommend(movie):
     return recommend_movies
 
 
-movies_dict = pickle.load(open('/home/aayu/Documents/PROJECTS/MovRECcom/movies_dict.pkl','rb'))
+movies_dict = pickle.load(open('/home/aayu/Documents/PROJECTS/Movie-Reccomandation-System/movies_dict.pkl','rb'))
 movies = pd.DataFrame(movies_dict)
 
-similarity = pickle.load(open('/home/aayu/Documents/PROJECTS/MovRECcom/similarity.pkl','rb'))
+similarity = pickle.load(open('/home/aayu/Documents/PROJECTS/Movie-Reccomandation-System/similarity.pkl','rb'))
 
 st.title('Movie Recommender System')
 

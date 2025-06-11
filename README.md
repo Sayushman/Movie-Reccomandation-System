@@ -1,7 +1,6 @@
-ChatGPT said:
-Here’s a complete and professional README.md content for your Movie Recommendation System project on GitHub:
 
 🎬 Movie Recommendation System
+
 This project is a Movie Recommendation System built with Python and Streamlit for an interactive UI. It recommends movies to users based on content-based filtering (using cast, crew, genres, and keywords) and/or collaborative filtering (based on user similarity).
 
 📌 Features
@@ -16,6 +15,7 @@ This project is a Movie Recommendation System built with Python and Streamlit fo
 📊 Backend powered by pandas, scikit-learn, and optional surprise/lightfm for collaborative filtering
 
 🧠 How It Works
+
 📚 Content-Based Filtering:
 Computes TF-IDF vectors from movie descriptions, genres, and keywords
 
@@ -24,5 +24,22 @@ Uses cosine similarity to find and rank similar movies
 👥 Collaborative Filtering (Optional):
 Uses user ratings matrix to recommend what similar users liked
 
-Can be added using surprise or LightFM library
+
+
+🚀 Getting Started
+1️⃣ Clone the Repository
+
+git clone https://github.com/yourusername/movie-recommendation-system.git
+
+  cd movie-recommendation-system
+
+2️⃣ Install Requirements
+
+  pip install -r requirements.txt
+
+3️⃣ Run the Streamlit App
+
+  streamlit run app.py
+
+
 

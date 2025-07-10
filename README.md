@@ -37,3 +37,32 @@
 git clone https://github.com/yourusername/movie-recommendation-system.git
 
 cd movie-recommendation-system
+
+---
+Install Dependencies
+
+pip install -r requirements.txt
+
+---
+Run streamlit App
+
+streamlit run app.py
+
+---
+
+Build Docker Image
+
+docker build -t movie-recommender .
+
+Run the Docker Container
+
+docker run -p 8501:8501 movie-recommender
+
+---
+
+📁 Dataset
+
+This app uses metadata from The Movie Database (TMDb). Make sure to download and clean the dataset or fetch it using their API if needed.
+
+---
+What you just need to do is to pull the image and run the docker container --->> otherwise Run the Docker container.... 
